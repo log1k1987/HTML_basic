@@ -1,4 +1,4 @@
-body {
+.wrapper {
   width: 1100px;
   height: 1500px;
   margin: 0 auto;
@@ -15,7 +15,7 @@ body {
 .header {
   width: 1100px;
   height: 78px;
-  background-image: url(img\\header\\Rectangle_1.png)
+  background-image: url(img\\header\\Rectangle_1.png);
 }
 .page {
   width: 901px;
