@@ -1,9 +1,10 @@
-.header {
+body {
   width: 1100px;
-  height: 78px;
-  background-image: url(img\\header\\Rectangle_1.png)
+  height: 1500px;
+  margin: 0 auto;
+  position: relative;
 }
-
+ 
 .logo__picture {
   width: 120px;
   height: 36px;
@@ -11,9 +12,23 @@
 .contacts {
   text-align: right;
 }
-.page {
-  width: 1100px; 
+.header {
+  width: 1100px;
+  height: 78px;
+  background-image: url(img\\header\\Rectangle_1.png)
 }
-.airplane {
-  text-align: right;
+.page {
+  width: 901px;
+  position: absolute;
+  right: 0;
+}
+
+.price__item {
+  display: inline-block;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 1100px;
+  height: 78px; 
 }
