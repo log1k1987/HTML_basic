@@ -85,8 +85,22 @@
 .price__item {
   display: inline-block;
   background-color: red;
+  height: 455px;
 }
-
+.price__up-t {
+  text-align: center;
+  width: 250px;
+    height: 235px;
+}
+.price__item:nth-child(2) {
+  border: 2px solid #e8e9ed;
+  border-radius: 2%;
+}
+.price_value {
+  font-size: 54px;
+  text-align: center;
+  margin-top: 40px;
+}
 .switcher {
   text-align: center;
 }
@@ -183,6 +197,3 @@ background-image: url(img/socials/mail.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-li {
-  list-style-type: none; /* Убираем маркеры */
- }
