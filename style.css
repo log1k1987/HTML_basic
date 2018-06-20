@@ -1,6 +1,6 @@
 .wrapper {
   width: 1100px;
-  height: 1500px;
+  height: 2000px;
   margin: 0 auto;
   position: relative;
 }
@@ -38,7 +38,7 @@
 }
 .page {
   width: 901px;
-  height: 1000px;
+  height: 1800px;
   position: absolute;
   right: 0;
 }
@@ -50,7 +50,7 @@
 }
 .sidebar {
   width: 199px;
-  height: 1000px;
+  height: 1800px;
   font-size: 12px;
   font-weight: bold;
   margin-top: 46px;
@@ -84,6 +84,7 @@
 }
 .price__item {
   display: inline-block;
+  background-color: red;
 }
 
 .switcher {
@@ -107,14 +108,8 @@
   width: 220px;
   background-color: red;
 }
-.socials {
-  width: 220px;
-  background-color: red;
-  right: 0;
-}
-.socials__item {
-  display: inline-block;
-}
+
+
 
 .footer {
   position: absolute;
@@ -123,3 +118,71 @@
   height: 78px; 
   background-image: url(img\\header\\Rectangle_1.png);
 }
+.logo__picture-footer {
+  width: 120px;
+  height: 36px;
+  position: absolute;
+  top: 22px;
+  left: 490px;
+}
+.socials {
+  color: white;
+  position: absolute;
+  width: 170px;
+  right: 20px;
+  bottom: 0;
+  text-align: right;
+}
+.socials__item-vk {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+background-color: white;
+border-radius: 50%;
+background-image: url(img/socials/vk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.socials__item-fb {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+background-color: white;
+border-radius: 50%;
+background-image: url(img/socials/fb.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.socials__item-g {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+background-color: white;
+border-radius: 50%;
+background-image: url(img/socials/google.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.socials__item-tw {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+background-color: white;
+border-radius: 50%;
+background-image: url(img/socials/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.socials__item-em {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+background-color: white;
+border-radius: 50%;
+background-image: url(img/socials/mail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }
