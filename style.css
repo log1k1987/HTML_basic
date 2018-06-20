@@ -197,3 +197,26 @@ background-image: url(img/socials/mail.png);
   background-repeat: no-repeat;
   background-position: center;
 }
+.news__item {
+  list-style-type: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.news__item:nth-child(2) {
+  border-bottom: 2px solid #e8e9ed;
+  border-top: 2px solid #e8e9ed;
+}
+.news__avatar {
+  display: inline-block;
+  width: 160px;
+  height: 160px
+  left: 0;
+  vertical-align: top;
+  margin-right: 30px;
+}
+ .news__info {
+   display: inline-block;
+  right: 0;
+  width: 650px;
+  height: 160px;
+}
