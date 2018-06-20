@@ -220,3 +220,11 @@ background-image: url(img/socials/mail.png);
   width: 650px;
   height: 160px;
 }
+.rel {
+  position: relative;
+}
+.rel1 {
+  position: absolute;
+  margin-left: -48px;
+  margin-top: 20px;
+}
