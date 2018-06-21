@@ -166,6 +166,7 @@
 }
 .switcher {
   text-align: center;
+  margin-top: 50px;
 }
 .switcher__display {
   display: inline;
@@ -324,18 +325,25 @@ background-image: url(img/socials/mail.png);
 }
 li > a {
   text-decoration: none;
+  color: black;
+}
+li > a:hover {
+  text-decoration: none;
+  color: blue;
 }
 .switcher__prev, .switcher__next {
   text-decoration: none;
   padding-right: 4px;
- padding-left: 7px;
- padding-top: 2px;
- padding-bottom: 2px;
+  padding-left: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   border: 1px solid #ffffff;
   border-radius: 30%;
+  color: black;
+  
 }
 .switcher__prev:hover, .switcher__next:hover {
-  background-color: #4b73b5;
+  color: blue;
   border: 1px solid #e8e9ed;
   border-radius: 30%;
 }
@@ -347,14 +355,15 @@ li > a {
 }
 .switcher__page-item {
   padding-right: 4px;
- padding-left: 7px;
- padding-top: 2px;
- padding-bottom: 2px;
+  padding-left: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   border: 1px solid #ffffff;
   border-radius: 30%;
+  color: black;
 }
 .switcher__page-item:hover {
-  background-color: #4b73b5;
+  color: blue;
   border: 1px solid #e8e9ed;
   border-radius: 30%;
 }
