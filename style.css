@@ -16,7 +16,7 @@
   font-weight: lighter;
   font-style: italic;
  }
- p, h1, h2, h3, a, div, span {
+ * {
   font-family: Roboto;
   }
 .wrapper {
@@ -66,11 +66,13 @@
 .section-title {
   font-size: 49px;
   margin-top: 0;
+  margin-bottom: 60px;
   padding-top: 0;
 }
 .airplane {
     margin-top: 13px;
 }
+
 .sidebar {
   width: 199px;
   height: 1800px;
@@ -106,10 +108,12 @@
 .menu__item-e {
   list-style-image: url(img/sidebar/team_icon.png);
 }
+
 .price__item {
   display: inline-block;
-  background-color: red;
   height: 455px;
+  font-size: 17px;
+  font-weight: bold;
 }
 .price__up-t {
   text-align: center;
@@ -120,10 +124,19 @@
   border: 2px solid #e8e9ed;
   border-radius: 2%;
 }
+.price__string {
+  list-style-type: disc;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.price__string-item {
+  margin-bottom: 15px;
+}
+
 .price_value {
   font-size: 54px;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 25px;
 }
 .price_value span {
   font-size: 28px;
@@ -243,6 +256,12 @@ background-image: url(img/socials/mail.png);
   background-position: center;
   margin-left: 5px;
 }
+.news {
+  margin-top: 45px;
+}
+.news_list {
+  padding-left: 0px;
+}
 .news__item {
   list-style-type: none;
   padding-top: 15px;
@@ -267,12 +286,13 @@ background-image: url(img/socials/mail.png);
   height: 160px;
 }
 .rel {
+  margin-top: 40px;
   position: relative;
 }
 .rel1 {
   position: absolute;
   margin-left: -48px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .price {
   margin-left: 0;
@@ -287,4 +307,10 @@ li > a {
 }
 .switcher__prev, .switcher__next {
   text-decoration: none;
+}
+.price__title {
+  margin-top: 28px;
+}
+.price__text {
+  margin-top: 20px;
 }
