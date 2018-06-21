@@ -1,23 +1,23 @@
 @font-face {
   font-family: 'Roboto';
-  src: url('fonts/Roboto-Bold_1.ttf') format('ttf');
+  src: url('fonts/Roboto-Bold_1.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
  }
  @font-face {
   font-family: 'Roboto';
-  src: url('fonts/Roboto-Light_1.ttf') format('ttf');
+  src: url('fonts/Roboto-Light_1.ttf') format('truetype');
   font-weight: lighter;
   font-style: normal;
  }
  @font-face {
   font-family: 'Roboto';
-  src: url('fonts/Roboto-LightItalic_1.ttf') format('ttf');
+  src: url('fonts/Roboto-LightItalic_1.ttf') format('truetype');
   font-weight: lighter;
   font-style: italic;
  }
  p, h1, h2, h3, a, div {
-  font-family: Roboto, "Arial Narrow", sans-serif;;
+  font-family: Roboto;
   }
 .wrapper {
   width: 1100px;
@@ -142,8 +142,11 @@
   display: inline;
 }
 .copyright {
-  width: 220px;
-  background-color: red;
+  width: 240px;
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-left: 17px;
 }
 
 
@@ -165,10 +168,19 @@
 .socials {
   color: white;
   position: absolute;
-  width: 170px;
+  width: 200px;
+  top: 10px;
   right: 20px;
   bottom: 0;
   text-align: right;
+}
+.socials__list {
+  margin-top: 7px;
+}
+.socials__title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 6px;
 }
 .socials__item-vk {
   display: inline-block;
@@ -189,6 +201,7 @@ border-radius: 50%;
 background-image: url(img/socials/fb.png);
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 5px;
 }
 .socials__item-g {
   display: inline-block;
@@ -199,6 +212,7 @@ border-radius: 50%;
 background-image: url(img/socials/google.png);
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 5px;
 }
 .socials__item-tw {
   display: inline-block;
@@ -209,6 +223,7 @@ border-radius: 50%;
 background-image: url(img/socials/twitter.png);
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 5px;
 }
 .socials__item-em {
   display: inline-block;
@@ -219,6 +234,7 @@ border-radius: 50%;
 background-image: url(img/socials/mail.png);
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: 5px;
 }
 .news__item {
   list-style-type: none;
@@ -254,4 +270,14 @@ background-image: url(img/socials/mail.png);
 .price {
   margin-left: 0;
   padding-left: 0;
+}
+.switcher__paginator {
+  font-size: 15px;
+  font-weight: bold;
+}
+li > a {
+  text-decoration: none;
+}
+.switcher__prev, .switcher__next {
+  text-decoration: none;
 }
