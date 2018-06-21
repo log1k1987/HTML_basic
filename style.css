@@ -19,12 +19,13 @@
  * {
   font-family: Roboto;
   }
-.wrapper {
-  width: 1100px;
-  height: 2000px;
-  margin: 0 auto;
-  position: relative;
-}
+  body {
+    width: 1100px;
+    height: 2000px;
+    margin: 0 auto;
+    position: relative;
+  }
+
  
 .logo__picture {
   width: 120px;
