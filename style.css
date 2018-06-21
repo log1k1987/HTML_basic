@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Bold_1.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+ }
+ @font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Light_1.ttf') format('ttf');
+  font-weight: lighter;
+  font-style: normal;
+ }
+ @font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-LightItalic_1.ttf') format('ttf');
+  font-weight: lighter;
+  font-style: italic;
+ }
+ p, h1, h2, h3, a, div {
+  font-family: Roboto, "Arial Narrow", sans-serif;;
+  }
 .wrapper {
   width: 1100px;
   height: 2000px;
@@ -44,6 +65,8 @@
 }
 .section-title {
   font-size: 49px;
+  margin-top: 0;
+  padding-top: 0;
 }
 .airplane {
     margin-top: 13px;
@@ -227,4 +250,8 @@ background-image: url(img/socials/mail.png);
   position: absolute;
   margin-left: -48px;
   margin-top: 20px;
+}
+.price {
+  margin-left: 0;
+  padding-left: 0;
 }
