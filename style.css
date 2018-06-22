@@ -376,3 +376,21 @@ li > a:hover {
 .socials__item-em:hover {
   background-color: white;
 }
+
+.contacts__schedule-popup {
+  display:inline-block;   
+  position:relative;
+  visibility: hidden;
+}
+.contacts__schedule-info {
+  display:inline-block;
+    position:absolute;
+    top:0px;   
+    left:0px;
+    color:#1c5bc3;
+    font-size:15px; 
+    padding:25px 10px;
+}
+.contacts__schedule:hover .contacts__schedule-popup {
+  visibility: visible;
+}
