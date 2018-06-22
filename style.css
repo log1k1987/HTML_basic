@@ -399,3 +399,6 @@ color: black;
   z-index: 1;
   text-align: left;
 }
+a.menu__link {
+  color: blue;
+}
