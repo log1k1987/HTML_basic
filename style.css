@@ -402,3 +402,15 @@ color: black;
 a.menu__link {
   color: blue;
 }
+span.menu__title.active {
+  color: #000; 
+}
+.menu__item-g.active {
+  list-style-image: url(img/sidebar/main_icon_black.png);
+}
+.menu__item-o.active {
+  list-style-image: url(img/sidebar/feed_icon_black.png);
+}
+.menu__item-e.active {
+  list-style-image: url(img/sidebar/team_icon_black.png);
+}
