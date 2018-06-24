@@ -322,6 +322,11 @@ background-image: url(img/socials/mail.png);
   margin-left: -48px;
   margin-top: 60px;
 }
+.rel2 {
+  position: absolute;
+  margin-left: -52px;
+  margin-top: 60px;
+}
 .price {
   margin-left: 0;
   padding-left: 0;
@@ -351,8 +356,6 @@ li > a:hover {
 }
 .switcher__prev:hover, .switcher__next:hover {
   color: blue;
-  border: 1px solid #e8e9ed;
-  border-radius: 30%;
 }
 .price__title {
   margin-top: 28px;
@@ -371,8 +374,6 @@ li > a:hover {
 }
 .switcher__page-item:hover {
   color: blue;
-  border: 1px solid #e8e9ed;
-  border-radius: 30%;
 }
 
 .socials__item-vk:hover,
