@@ -214,6 +214,9 @@ li.price__string-item {
   font-weight: bold;
 } 
 /* НОВОСТИ */
+.news {
+  margin-bottom: 50px;
+}
 h3.section-title {
 margin-bottom: 65px;
 }
@@ -263,7 +266,6 @@ margin-bottom: 65px;
 /* ПАГИНАТОР */
 .switcher {
   text-align: center;
-  margin-top: 50px;
 }
 .switcher__display {
   display: inline;
