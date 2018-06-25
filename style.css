@@ -20,7 +20,7 @@
   font-family: 'Roboto';
   box-sizing: border-box;
 }
- h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6, p {
    margin-top: 0;
    margin-bottom: 0;
    font-weight: normal;
@@ -133,7 +133,7 @@ color: black;
   display: inline-block;
   width: 30%;
   font-size: 18px;
-  margin-bottom: 5px;
+  margin-bottom: 50px;
   margin-right: 15px;
   cursor: pointer;
   vertical-align: top;
@@ -204,43 +204,50 @@ li.price__string-item {
 } 
 /* НОВОСТИ */
 h3.section-title {
-margin-bottom: 45px;
+margin-bottom: 65px;
 }
-.news {
-  margin-top: 45px;
-}
+
 .news_list {
   padding-left: 0px;
 }
 .news__item {
   list-style-type: none;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-.news__item:nth-child(2) {
+  padding-bottom: 27px;
+  margin-bottom: 27px;
   border-bottom: 2px solid #e8e9ed;
-  border-top: 2px solid #e8e9ed;
+}
+.news__item:last-child {
+  border-bottom: none;
 }
 .news__avatar {
   display: inline-block;
-  width: 160px;
-  height: 160px;
   left: 0;
   vertical-align: top;
-  margin-right: 30px;
+}
+.news__avatar-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 }
  .news__info {
   display: inline-block;
   right: 0;
-  width: 600px;
+  width: 650px;
   height: 160px;
   overflow: hidden;
+  padding-left: 15px;
+  font-size: 15px;
 }
 .news__title {
   font-weight: bold;
+  padding-bottom: 11px;
 }
 .news__date {
-  padding-bottom: 10px;
+  padding-bottom: 4px;
+}
+.news__text {
+  font-size: 17px;
+  line-height: 1.7;
 }
 /* ПАГИНАТОР */
 .switcher {
