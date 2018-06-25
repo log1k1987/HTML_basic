@@ -318,6 +318,7 @@ li > a:hover {
   cursor: pointer;
   font-size: 12px;
   font-weight: bold;
+  letter-spacing: 3px;
 }
 .menu__link:hover {
   color: #000;
