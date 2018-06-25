@@ -331,7 +331,7 @@ li > a:hover {
 .menu__link--main:before {
   content: '';
   position: absolute;
-  width: 20px;
+  width: 23px;
   height: 20px;
   background: url(img/sidebar/main_icon.png) center center no-repeat;
   left: -5px;
@@ -339,7 +339,7 @@ li > a:hover {
 .menu__link--reviews:before {
   content: '';
   position: absolute;
-  width: 20px;
+  width: 23px;
   height: 20px;
   background: url(img/sidebar/feed_icon.png) center center no-repeat;
   left: -5px;
@@ -347,7 +347,7 @@ li > a:hover {
 .menu__link--crew:before {
   content: '';
   position: absolute;
-  width: 20px;
+  width: 23px;
   height: 20px;
   background: url(img/sidebar/team_icon.png) center center no-repeat;
   left: -5px;
