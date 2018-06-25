@@ -42,7 +42,7 @@ ul li {
 /* ХЕАДЕР */
 .header {
    background-color: #4b73b5;
-   margin-bottom: 30px;
+   margin-bottom: 15px;
 }
 
 .header .container {
@@ -79,6 +79,28 @@ ul li {
 .contacts__schedule b:hover {
   text-decoration: underline;
 }
+/* ВСПЛЫВАШКА */
+.contacts__schedule-popup { 
+  position:relative;
+  visibility: hidden;
+}
+.contacts__schedule-info {
+  display:inline-block;
+    position:absolute;
+    top:0px;   
+    left:5px;
+    color:#1c5bc3;
+    font-size:15px; 
+    padding:30px 10px;
+}
+.contacts__schedule-info > div {
+color: black;
+}
+.contacts__schedule:hover .contacts__schedule-popup {
+  visibility: visible;
+  z-index: 1;
+  text-align: left;
+}
 /* ТЕЛО */
 
 .page {
@@ -89,11 +111,17 @@ ul li {
 .maincontent {
   height: 1840px;
   width: 840px;
-  right: 0;
+  right: 40px;
   top: 0;
   position: absolute;
 }
+
 /* ТАРИФЫ */
+.section-title {
+  font-size: 49px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
 .tarrif ul {
   list-style: none;
   padding: 0;
@@ -110,6 +138,7 @@ ul li {
   margin-right: 30px;
   cursor: pointer;
   vertical-align: top;
+  padding: 170px 30px 46px;
 }
 /* vertical-align: baseline|bottom|middle|sub|super|text-bottom|text-top|top|inherit | значение | проценты */
 .price__item:last-child {
@@ -118,6 +147,7 @@ ul li {
 
 .price__item:hover {
   border: 1px solid #e8e9ed;
+  border-radius: 2%;
 }
 
 .price__up-t {
@@ -126,37 +156,38 @@ ul li {
   height: 70px;
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 13%;
   transform: translate(-50%,-50%);
   border-radius: 50%;
 }
 .price__logo {
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 13%;
   transform: translate(-50%,-50%);
 }
 .price__title {
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 30%;
   transform: translate(-50%,-50%);
 }
 .price__text {
-padding-top: 220px;
-padding-left: 15%;
+  text-align: center;
 }
+
 .price__string {
   padding-top: 20px;
-  padding-left: 15%;
+  padding-left: 10%;
 }
-li.price__string-item {
-  list-style-type: disc;
-}
+/*
 .price__string-item {
   margin-bottom: 15px;
 }
-
+*/
+li.price__string-item {
+  list-style-type: disc;
+}
 .price_value {
   font-size: 54px;
   text-align: center;
@@ -167,8 +198,11 @@ li.price__string-item {
   text-align: center;
   margin-top: 40px;
   font-weight: bold;
-}
+} 
 /* НОВОСТИ */
+h3.section-title {
+margin-bottom: 45px;
+}
 .news {
   margin-top: 45px;
 }
@@ -197,6 +231,12 @@ li.price__string-item {
   right: 0;
   width: 600px;
   height: 160px;
+}
+.news__title {
+  font-weight: bold;
+}
+.news__date {
+  padding-bottom: 10px;
 }
 /* ПАГИНАТОР */
 .switcher {
@@ -263,6 +303,7 @@ li > a:hover {
 }
 .menu__list {
   padding-top: 30px;
+  padding-left: 40px;
 }
 .menu__item {
  margin-bottom: 25px;
@@ -274,6 +315,8 @@ li > a:hover {
   text-decoration: none;
   color: blue;
   cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
 }
 .menu__link:hover {
   color: #000;
@@ -287,7 +330,7 @@ li > a:hover {
   width: 20px;
   height: 20px;
   background: url(img/sidebar/main_icon.png) center center no-repeat;
-  left: -30px;
+  left: -5px;
 }
 .menu__link--reviews:before {
   content: '';
@@ -295,7 +338,7 @@ li > a:hover {
   width: 20px;
   height: 20px;
   background: url(img/sidebar/feed_icon.png) center center no-repeat;
-  left: -30px;
+  left: -5px;
 }
 .menu__link--crew:before {
   content: '';
@@ -303,7 +346,7 @@ li > a:hover {
   width: 20px;
   height: 20px;
   background: url(img/sidebar/team_icon.png) center center no-repeat;
-  left: -30px;
+  left: -5px;
 }
 .menu__link--active.menu__link--main:before {
   background: url(img/sidebar/main_icon_black.png) center center no-repeat;
@@ -419,25 +462,3 @@ background-image: url(img/socials/mail.png);
   margin-top: 15px;
 }
 
-/* ВСПЛЫВАШКА */
-.contacts__schedule-popup { 
-  position:relative;
-  visibility: hidden;
-}
-.contacts__schedule-info {
-  display:inline-block;
-    position:absolute;
-    top:0px;   
-    left:5px;
-    color:#1c5bc3;
-    font-size:15px; 
-    padding:30px 10px;
-}
-.contacts__schedule-info > div {
-color: black;
-}
-.contacts__schedule:hover .contacts__schedule-popup {
-  visibility: visible;
-  z-index: 1;
-  text-align: left;
-}
