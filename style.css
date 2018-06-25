@@ -189,9 +189,20 @@ color: black;
   margin-bottom: 15px;
 }
 */
+
 li.price__string-item {
-  list-style-type: disc;
+  /* list-style-type: disc; */
   margin-bottom: 12px;
+}
+.price__string-item:before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #000;
+  left: 26px;
+  margin-top: 8px;
 }
 .price_value {
   font-size: 54px;
