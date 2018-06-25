@@ -86,15 +86,15 @@ ul li {
 }
 .contacts__schedule-info {
   display:inline-block;
-    position:absolute;
-    top:0px;   
-    left:5px;
-    color:#1c5bc3;
-    font-size:15px; 
-    padding:30px 10px;
+  position:absolute;
+  top:0px;   
+  left:5px;
+  color:#1c5bc3;
+  font-size:15px; 
+  padding:30px 10px;
 }
 .contacts__schedule-info > div {
-color: black;
+  color: black;
 }
 .contacts__schedule:hover .contacts__schedule-popup {
   visibility: visible;
@@ -139,7 +139,7 @@ color: black;
   vertical-align: top;
   padding: 173px 30px 35px;
 }
-/* vertical-align: baseline|bottom|middle|sub|super|text-bottom|text-top|top|inherit | значение | проценты */
+
 .price__item:last-child {
   margin-right: 0;
 }
@@ -184,14 +184,9 @@ color: black;
   padding-left: 10%;
   padding-bottom: 10px;
 }
-/*
-.price__string-item {
-  margin-bottom: 15px;
-}
-*/
+
 
 li.price__string-item {
-  /* list-style-type: disc; */
   margin-bottom: 12px;
 }
 .price__string-item:before {
@@ -218,7 +213,7 @@ li.price__string-item {
   margin-bottom: 50px;
 }
 h3.section-title {
-margin-bottom: 65px;
+  margin-bottom: 65px;
 }
 
 .news_list {
@@ -275,8 +270,8 @@ margin-bottom: 65px;
 }
 .switcher__pages {
   display: inline-block;
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .switcher__page-item {
   display: inline;
@@ -328,7 +323,7 @@ li > a:hover {
   padding-left: 40px;
 }
 .menu__item {
- margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .menu__item:last-child {
   margin-bottom: 0;
@@ -417,9 +412,9 @@ li > a:hover {
   display: inline-block;
   width: 20px;
   height: 20px;
-background-color: #d2def3;
-border-radius: 50%;
-background-image: url(img/socials/vk.png);
+  background-color: #d2def3;
+  border-radius: 50%;
+  background-image: url(img/socials/vk.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -428,8 +423,8 @@ background-image: url(img/socials/vk.png);
   width: 20px;
   height: 20px;
   background-color: #d2def3;
-border-radius: 50%;
-background-image: url(img/socials/fb.png);
+  border-radius: 50%;
+  background-image: url(img/socials/fb.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 5px;
@@ -439,8 +434,8 @@ background-image: url(img/socials/fb.png);
   width: 20px;
   height: 20px;
   background-color: #d2def3;
-border-radius: 50%;
-background-image: url(img/socials/google.png);
+  border-radius: 50%;
+  background-image: url(img/socials/google.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 5px;
@@ -450,8 +445,8 @@ background-image: url(img/socials/google.png);
   width: 20px;
   height: 20px;
   background-color: #d2def3;
-border-radius: 50%;
-background-image: url(img/socials/twitter.png);
+  border-radius: 50%;
+  background-image: url(img/socials/twitter.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 5px;
@@ -461,8 +456,8 @@ background-image: url(img/socials/twitter.png);
   width: 20px;
   height: 20px;
   background-color: #d2def3;
-border-radius: 50%;
-background-image: url(img/socials/mail.png);
+  border-radius: 50%;
+  background-image: url(img/socials/mail.png);
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 5px;
