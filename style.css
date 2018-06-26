@@ -79,6 +79,7 @@ ul li {
 .contacts__schedule-popup { 
   position:relative;
   visibility: hidden;
+  height: 0;
 }
 .contacts__schedule-info {
   display:inline-block;
@@ -92,7 +93,7 @@ ul li {
 .contacts__schedule-info > div {
   color: black;
 }
-.contacts__schedule:hover .contacts__schedule-popup {
+.contacts__schedule b:hover + .contacts__schedule-popup {
   visibility: visible;
   z-index: 1;
   text-align: left;
