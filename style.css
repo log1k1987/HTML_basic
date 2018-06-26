@@ -41,28 +41,24 @@ ul li {
 }
 /* ХЕАДЕР */
 .header {
-   background-color: #4b73b5;
-   margin-bottom: 15px;
+  background-color: #4b73b5;
+  margin-bottom: 15px; 
+  padding-top: 23px;
 }
 
 .header .container {
-  position: relative;
-  height: 80px;
+  height: 57px;
 }
 
 .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding-top: 23px;
+  display: inline-block;
+  float: left;
 }
 .contacts {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding-top: 20px;
+  display: inline-block;
   font-weight: bold;
   text-align: right;
+  float: right;
 }
 .contacts__phone {
   color: #fff;
@@ -103,17 +99,13 @@ ul li {
 }
 /* ТЕЛО */
 
-.page {
-  position: relative;
+.wrapper .container {
   width: 1060px;
-  height: 1840px;
 }
 .maincontent {
-  height: 1840px;
-  width: 840px;
-  right: 40px;
-  top: 0;
-  position: absolute;
+  width: 80%;
+  display: inline-block;
+  float: right;
 }
 
 /* ТАРИФЫ */
@@ -128,14 +120,14 @@ ul li {
 
 .price__item {
   border: 1px solid #fff;
-  position: relative;
   display: inline-block;
   width: 30%;
   font-size: 18px;
   margin-right: 15px;
   cursor: pointer;
   vertical-align: top;
-  padding: 173px 30px 35px;
+  text-align: center;
+  padding: 40px 30px 45px;
 }
 
 .price__item:last-child {
@@ -149,38 +141,35 @@ ul li {
 
 .price__up-t {
   background: #4b73b5;
+  display: inline-block;
   width: 70px;
   height: 70px;
-  position: absolute;
-  left: 50%;
-  top: 17%;
-  transform: translate(-50%,-50%);
   border-radius: 50%;
+  position: relative;
+  margin-bottom: 25px;
 }
 .price__logo {
   position: absolute;
   left: 50%;
-  top: 17%;
+  top: 50%;
   transform: translate(-50%,-50%);
 }
 .price__title {
-  position: absolute;
-  left: 50%;
-  top: 33%;
-  transform: translate(-50%,-50%);
   font-size: 10.78px;
   font-weight: bold;
   letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 .price__text {
   text-align: center;
   line-height: 1.7;
-  padding-bottom: 8px;
+  margin-bottom: 15px;
 }
 
 .price__string {
-  padding-left: 10%;
-  padding-bottom: 10px;
+ text-align: left;
+ margin-left: 20px;
+ margin-bottom: 30px;
 }
 
 
@@ -194,7 +183,7 @@ li.price__string-item {
   height: 4px;
   border-radius: 50%;
   background-color: #000;
-  left: 26px;
+  margin-left: -20px;
   margin-top: 8px;
 }
 .price_value {
@@ -216,6 +205,7 @@ h3.section-title {
 
 .news_list {
   padding-left: 0px;
+  margin-bottom: 50px;
 }
 .news__item {
   list-style-type: none;
@@ -225,11 +215,14 @@ h3.section-title {
 }
 .news__item:last-child {
   border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .news__avatar {
   display: inline-block;
   left: 0;
   vertical-align: top;
+  margin-right: 15px;
 }
 .news__avatar-pic {
   width: 160px;
@@ -242,15 +235,14 @@ h3.section-title {
   width: 650px;
   height: 160px;
   overflow: hidden;
-  padding-left: 15px;
   font-size: 15px;
 }
 .news__title {
   font-weight: bold;
-  padding-bottom: 11px;
+  margin-bottom: 11px;
 }
 .news__date {
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 .news__text {
   font-size: 17px;
@@ -312,9 +304,9 @@ li > a:hover {
 }
 /* САЙДБАР */
 .sidebar {
-  position: absolute;
-  height: 1840px;
-  width: 120px;
+  width: 20%;
+  display: inline-block;
+  float: left;
 }
 .menu__list {
   padding-top: 30px;
@@ -346,7 +338,7 @@ li > a:hover {
   width: 23px;
   height: 20px;
   background: url(img/sidebar/main_icon.png) center center no-repeat;
-  left: -5px;
+  margin-left: -50px;
 }
 .menu__link--reviews:before {
   content: '';
@@ -354,7 +346,7 @@ li > a:hover {
   width: 23px;
   height: 20px;
   background: url(img/sidebar/feed_icon.png) center center no-repeat;
-  left: -5px;
+  margin-left: -50px;
 }
 .menu__link--crew:before {
   content: '';
@@ -362,7 +354,7 @@ li > a:hover {
   width: 23px;
   height: 20px;
   background: url(img/sidebar/team_icon.png) center center no-repeat;
-  left: -5px;
+  margin-left: -50px;
 }
 .menu__link--active.menu__link--main:before {
   background: url(img/sidebar/main_icon_black.png) center center no-repeat;
@@ -373,38 +365,45 @@ li > a:hover {
 .menu__link--active.menu__link--crew:before {
   background: url(img/sidebar/team_icon_black.png) center center no-repeat;
 }
+.menu__link--main:hover:before {
+  background: url(img/sidebar/main_icon_black.png) center center no-repeat;
+}
+.menu__link--reviews:hover:before {
+  background: url(img/sidebar/feed_icon_black.png) center center no-repeat;
+}
+.menu__link--crew:hover:before {
+  background: url(img/sidebar/team_icon_black.png) center center no-repeat;
+}
 /* ФУТЕР */
 
 .footer {
   background-color: #4b73b5;
+  clear: both;
+  padding-top: 15px;
 }
 .footer .container {
   position: relative;
-  height: 80px;
+  height: 65px;
 }
 .footer__logo {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 25px;
   transform: translate(-50%,-50%);
 }
+
 /* Социальные сети */
 .socials {
   color: white;
-  position: absolute;
+  display: inline-block;
+  float: right;
   width: 200px;
-  top: 10px;
-  right: 0;
-  bottom: 0;
   text-align: left;
-}
-.socials__list {
-  margin-top: 7px;
 }
 .socials__title {
   font-size: 15px;
   font-weight: bold;
-  margin-top: 6px;
+  margin-bottom: 8px;
 }
 .socials__item-vk {
   display: inline-block;
@@ -470,11 +469,10 @@ li > a:hover {
 /* КОПИРАЙТ */
 
 .copyright {
-  position: absolute;
-  left: 0;
+  display: inline-block;
+  float: left;
   width: 240px;
   color: white;
   font-size: 14px;
-  margin-top: 15px;
 }
 
