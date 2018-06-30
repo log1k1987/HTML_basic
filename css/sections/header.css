@@ -1,0 +1,56 @@
+.header {
+  background-color: #4b73b5;
+  padding-top: 23px;
+  margin-bottom: 15px;
+}
+.header--reviews {
+  margin-bottom: 45px; 
+}
+.header .container {
+  display: flex;
+  height: 57px;
+  justify-content: space-between;
+}
+
+.contacts {
+  font-weight: bold;
+  text-align: right;
+}
+.contacts__phone {
+  color: #fff;
+  text-decoration: none;
+  font-size: 21px;
+}
+.contacts__phone:hover {
+  text-decoration: underline;
+}
+.contacts__schedule {
+  color: rgba(255, 255, 255, .7);
+  font-size: 14px;
+}
+.contacts__schedule b:hover {
+  text-decoration: underline;
+}
+/* ВСПЛЫВАШКА */
+.contacts__schedule-popup { 
+  position:relative;
+  visibility: hidden;
+  height: 0;
+}
+.contacts__schedule-info {
+  display:inline-block;
+  position:absolute;
+  top:0px;   
+  left:5px;
+  color:#1c5bc3;
+  font-size:15px; 
+  padding:30px 10px;
+}
+.contacts__schedule-info > div {
+  color: black;
+}
+.contacts__schedule b:hover + .contacts__schedule-popup {
+  visibility: visible;
+  z-index: 1;
+  text-align: left;
+}
