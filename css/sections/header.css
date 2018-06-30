@@ -1,15 +1,26 @@
 .header {
   background-color: #4b73b5;
   padding-top: 23px;
+  padding-bottom: 17px;
   margin-bottom: 15px;
 }
 .header--reviews {
   margin-bottom: 45px; 
 }
-.header .container {
+.container--header {
   display: flex;
-  height: 57px;
-  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.header__col {
+  width: 50%;
+  display: flex;
+}
+.header__col--left {
+  align-items: center;
+}
+.header__col--right {
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .contacts {
