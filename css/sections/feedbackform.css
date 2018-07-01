@@ -1,74 +1,61 @@
-/* ФОрма отзывов */
 .feedback {
-  width: 100%;
-  height: 535px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 50px;
 }
-.feedback__title {
-  font-size: 49px;
-  font-weight: bold;
-  margin-bottom: 25px;
-
+.container--feedback {
+  display: flex;
+  justify-content: center;
 }
 .feedback__block {
   width: 700px;
   padding: 50px 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   background: #f5f5f5;
 }
+
+
 .feedback__form {
   display: flex;
   flex-wrap: wrap;
 }
-#name, #link {
-  width: 270px;
-  height: 45px;
-  margin-right: 20px;
+.feedback__name {
+  width: 50%;
 }
-.feedback__up {
+.feedback__linkvk {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.feedback__text {
+  width: 100%;
   margin-bottom: 20px;
 }
-.feedback__down {
-  margin-right: 192px;
+.feedback__radio {
+  width: 50%;
 }
-#link {
-  margin-right: 0;
+.feedback_btn {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
 }
 #text {
-  width: 560px;
-  height: 85px;
-  margin-bottom: 15px;
+  min-width: 560px;
+  min-height: 90px;
   resize: none;
+}
+#name, #link {
+  min-width: 270px;
+  min-height: 45px;
+}
+.feedback__title {
+  font-size: 49px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 .feedback__title2 {
   margin-bottom: 10px;
 }
-.button {
-  width: 155px;
-  height: 45px;
-  color: white;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 0;
-  background-color: #4b73b5;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.button__text {
-align-self: center;
-margin-right: 10px;
-} 
-#submit {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
-.button__icon {
-  width: 22px;
-  background: url(../../img/btn/Vector\ Smart\ Object.png) center center no-repeat;
-  background-position-y: 15px;
+.feedback__name, .feedback__linkvk {
+  margin-bottom: 20px;
 }

@@ -1,7 +1,10 @@
 /* Вопросы */
 .question {
-  height: 170px;
   background: url(../../img/reviews/Rectangle1.png);
+  margin-bottom: 60px;
+}
+.container--ques{
+  min-height: 170px;
   display: flex;
   justify-content: center;
   align-items: center;
