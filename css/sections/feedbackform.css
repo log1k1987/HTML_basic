@@ -7,7 +7,7 @@
 }
 .feedback__block {
   width: 700px;
-  padding: 50px 70px;
+  padding: 40px 70px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -46,7 +46,8 @@
 }
 #name, #link {
   min-width: 270px;
-  min-height: 45px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 .feedback__title {
   font-size: 49px;
