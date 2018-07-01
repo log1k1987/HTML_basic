@@ -9,10 +9,9 @@
 }
 .container--header {
   display: flex;
-  /* flex-direction: column; */
 }
 .header__col {
-  width: 50%;
+  flex: 1;
   display: flex;
 }
 .header__col--left {
@@ -20,7 +19,6 @@
 }
 .header__col--right {
   justify-content: flex-end;
-  flex-wrap: wrap;
 }
 
 .contacts {

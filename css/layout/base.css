@@ -1,6 +1,11 @@
 html, body {
-  font-family: 'Roboto', sans-serif ;
   height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 * {
   box-sizing: border-box;
@@ -10,7 +15,7 @@ html, body {
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
-  min-width: 1080px;       /*ширина контента(блок контейнер) + 10-20 пикселей */
+  min-width: 1080px;
 }
 .pagecontent {
   flex: 1;

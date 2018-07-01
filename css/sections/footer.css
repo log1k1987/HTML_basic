@@ -16,3 +16,77 @@ footer {
 .footer__col--right {
   justify-content: flex-end;
 }
+/* КОПИРАЙТ */
+
+.copyright {
+  width: 240px;
+  color: white;
+  font-size: 14px;
+}
+/* Социальные сети */
+.socials {
+  color: white;
+  text-align: left;
+}
+.socials__list {
+  display: flex;
+}
+.socials__item {
+  margin-right: 10px;
+}
+.socials__item:last-child {
+  margin-right: 0;
+}
+.socials__link {
+  text-decoration: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: #d2def3;
+  border-radius: 50%;
+}
+.socials__link:hover {
+  background-color: white;
+}
+.socials__title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.socials__link--vk:before {
+  content: '';
+  background: url(../../img/socials/vk.png) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+} 
+.socials__link--fb:before {
+  content: '';
+  background: url(../../img/socials/fb.png) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+} 
+.socials__link--tw:before {
+  content: '';
+  background: url(../../img/socials/twitter.png) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+} 
+.socials__link--em:before {
+  content: '';
+  background: url(../../img/socials/mail.png) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+} 
+.socials__link--g:before {
+  content: '';
+  background: url(../../img/socials/google.png) center center no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+} 
+
