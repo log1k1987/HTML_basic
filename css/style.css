@@ -6,5 +6,10 @@
 /* sections style */
 @import url('sections/header.css');
 @import url('sections/breadcrumbs.css');
+@import url('sections/sidebar.css');
 @import url('sections/main-page.css');
+@import url('sections/newsreviews.css');
+@import url('sections/question.css');
+@import url('sections/feedbackform.css');
+@import url('sections/paginator.css');
 @import url('sections/footer.css');

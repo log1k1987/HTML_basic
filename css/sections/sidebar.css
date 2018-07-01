@@ -1,0 +1,76 @@
+.sidebar {
+  width: 17%;
+}
+/* САЙДБАР */
+
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 38px;
+  padding-top: 30px;
+}
+.menu__list--reviews {
+padding-top: 0;
+}
+.menu__item {
+  margin-bottom: 30px;
+}
+.menu__item:last-child {
+  margin-bottom: 0;
+}
+.menu__link {
+  text-decoration: none;
+  color: #4b73b5;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+.menu__link:hover {
+  color: #000;
+}
+.menu__link--active .menu__link {
+  color: #000;
+}
+.menu__link--main:before {
+  content: '';
+  position: absolute;
+  width: 23px;
+  height: 20px;
+  background: url(../../img/sidebar/main_icon.png) center center no-repeat;
+  margin-left: -40px;
+}
+.menu__link--reviews:before {
+  content: '';
+  position: absolute;
+  width: 23px;
+  height: 20px;
+  background: url(../../img/sidebar/feed_icon.png) center center no-repeat;
+  margin-left: -40px;
+}
+.menu__link--crew:before {
+  content: '';
+  position: absolute;
+  width: 23px;
+  height: 20px;
+  background: url(../../img/sidebar/team_icon.png) center center no-repeat;
+  margin-left: -40px;
+}
+.menu__link--active .menu__link--main:before {
+  background: url(../../img/sidebar/main_icon_black.png) center center no-repeat;
+}
+.menu__link--active .menu__link--reviews:before {
+  background: url(../../img/sidebar/feed_icon_black.png) center center no-repeat;
+}
+.menu__link--active .menu__link--crew:before {
+  background: url(../../img/sidebar/team_icon_black.png) center center no-repeat;
+}
+.menu__link--main:hover:before {
+  background: url(../../img/sidebar/main_icon_black.png) center center no-repeat;
+}
+.menu__link--reviews:hover:before {
+  background: url(../../img/sidebar/feed_icon_black.png) center center no-repeat;
+}
+.menu__link--crew:hover:before {
+  background: url(../../img/sidebar/team_icon_black.png) center center no-repeat;
+}
