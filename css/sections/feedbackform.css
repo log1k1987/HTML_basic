@@ -60,3 +60,30 @@
 .feedback__name, .feedback__linkvk {
   margin-bottom: 20px;
 }
+#submit {
+  min-width: 150px;
+  background: #4b73b5;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px
+}
+.button__text {
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.button__text:after {
+  content: '';
+  background: url(../../img/btn/Vector\ Smart\ Object.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  vertical-align: center;
+  top: -2px;
+  right: 0px;
+}
