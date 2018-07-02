@@ -1,0 +1,10 @@
+
+.crew__list {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.crew__item {
+  width: 33%;
+  border: 1px;
+}
