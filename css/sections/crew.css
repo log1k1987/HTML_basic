@@ -1,10 +1,36 @@
 
+.crew {
+  margin-bottom: 50px;
+}
 .crew__list {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 }
 .crew__item {
-  width: 33%;
+  width: 32%;
   border: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1%;
+}
+.crew__avatar {
+  margin-bottom: 10px;
+}
+.crew__name {
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.crew__post {
+  color: #4b73b5;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.crew__pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 }
