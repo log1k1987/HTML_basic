@@ -43,6 +43,23 @@
 
       <div class="page">
         <div class="container container__main">
+
+          <aside class="sidebar">
+            <nav class="menu">
+              <ul class="menu__list menu__list--reviews">
+                <li class="menu__item">
+                  <a href="index.html" class="menu__link menu__link--main">ГЛАВНАЯ</a>
+                </li>
+                <li class="menu__item menu__link--active">
+                  <a href="#" class="menu__link menu__link--reviews">ОТЗЫВЫ</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link menu__link--crew">ЭКИПАЖ</a>
+                </li>
+              </ul>
+            </nav>
+          </aside>
+
           <main class="maincontent">
             <nav class="breadcrumbs">
               <ul class="breadcrumbs__list">
@@ -141,22 +158,6 @@
 
           </main>
 
-          <aside class="sidebar">
-            <nav class="menu">
-              <ul class="menu__list menu__list--reviews">
-                <li class="menu__item">
-                  <a href="index.html" class="menu__link menu__link--main">ГЛАВНАЯ</a>
-                </li>
-                <li class="menu__item menu__link--active">
-                  <a href="#" class="menu__link menu__link--reviews">ОТЗЫВЫ</a>
-                </li>
-                <li class="menu__item">
-                  <a href="#" class="menu__link menu__link--crew">ЭКИПАЖ</a>
-                </li>
-              </ul>
-            </nav>
-          </aside>
-
         </div>
       </div>
 
@@ -176,29 +177,29 @@
           <div class="feedback__block">
             <h2 class="feedback__title">Оставить отзыв</h2>
             <form action="" method="POST" class="feedback__form">
-          
+
               <div class="feedback__name">
                 <label class="feedback__up-left">
                   <div class="feedback__title2">Ваше имя</div>
                   <input type="text" name="name" id="name" value="" placeholder="Андрей">
                 </label>
               </div>
-                
-               <div class="feedback__linkvk">
-                  <label class="feedback__up-right">
-                    <div class="feedback__title2">Ссылка на профиль VK</div>
-                    <input type="text" name="link" id="link" value="" placeholder="vk.com/example">
-                  </label>
-               </div>
-              
-          
-             <div class="feedback__text">
+
+              <div class="feedback__linkvk">
+                <label class="feedback__up-right">
+                  <div class="feedback__title2">Ссылка на профиль VK</div>
+                  <input type="text" name="link" id="link" value="" placeholder="vk.com/example">
+                </label>
+              </div>
+
+
+              <div class="feedback__text">
                 <label class="feedback__centr">
                   <div class="feedback__title2">Текст отзыва</div>
                   <textarea name="text" id="text">Мне понравилось</textarea>
                 </label>
-             </div>
-          
+              </div>
+
               <div class="feedback__radio">
                 <label class="feedback__down">
                   <div class="feedback__title2">Отображать фото в отзыве?</div>
@@ -208,13 +209,13 @@
                   <span>Нет</span>
                 </label>
               </div>
-          
+
               <div class="feedback_btn">
                 <button type="submit" name="submit" id="submit">
-                    <div class="button__text">отправить</div>
+                  <div class="button__text">отправить</div>
                 </button>
               </div>
-          
+
             </form>
           </div>
         </div>
