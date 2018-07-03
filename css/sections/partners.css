@@ -8,6 +8,9 @@
   margin-bottom: 80px;
   margin-right: 1%;
 }
+.partners__item:nth-child(3n) {
+  margin-right: 0;
+}
 .partners__avatar {
   display: flex;
   justify-content: center;
