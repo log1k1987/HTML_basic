@@ -54,7 +54,7 @@
 .dropdown {
   border: 1px solid black;
   background: #fff;
-  padding: 20px;
+  padding: 15px;
   width: 165px;
   border-radius: 5px 0 5px 5px;
   text-align: center;
@@ -74,7 +74,9 @@
   right: 0;
   top: -29px;
 }
-
+.dropdown__item {
+  text-align: left;
+}
 .dropdown__link {
   text-decoration: none;
   font-size: 14px;
@@ -83,7 +85,8 @@
   color: #1c5bc3;
 }
 .dropdown__link--lunch {
-  color: 221f1f;
+  color: #221f1f;
+  font-weight: lighter;
 }
 
 .triangle {
@@ -98,4 +101,4 @@
   margin-bottom: -12px;
   left: 82%;
   background: #fff;
-  }
+}
