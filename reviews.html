@@ -208,17 +208,23 @@
                 </label>
               </div>
 
-              <div class="feedback__radio">
-                <label class="feedback__down">
-                  <div class="feedback__title2">Отображать фото в отзыве?</div>
-                  <input type="radio" checked="checked" name="foto" value="yes">
-                  <span>Да</span>
-                  <input type="radio" name="foto" value="no">
-                  <span>Нет</span>
-                </label>
-              </div>
+              <label class="feedback__radio">
+                <div class="feedback__title2">Отображать фото в отзыве?</div>
 
-              <div class="feedback_btn">
+                  <label class="feedback__label">
+                    <input checked="checked" class="feedback__ro" name="pt" type="radio" value="yes">
+                    <span class="feedback__newro"></span>
+                    <span class="feedback__newtt">Да</span>
+                  </label>
+
+                  <label class="feedback__label">
+                    <input class="feedback__ro" name="pt" type="radio" value="no">
+                    <span class="feedback__newro"></span>
+                    <span class="feedback__newtt">Нет</span>
+                  </label>
+              </label>
+
+              <div class="feedback__btn">
                 <button type="submit" name="submit" id="submit">
                   <div class="button__text">отправить</div>
                 </button>
