@@ -21,6 +21,7 @@
   height: 70px;
   cursor: pointer;
   display: block;
+  opacity: 0.5;
   background: url(../../img/partners/partners.png) 0 0 no-repeat;
 }
 .partners__link--bmp {
