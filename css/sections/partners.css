@@ -1,0 +1,59 @@
+.partners__list {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.partners__item {
+  width: 32%;
+  margin-bottom: 80px;
+  margin-right: 1%;
+}
+.partners__item:nth-child(3n) {
+  margin-right: 0;
+}
+.partners__avatar {
+  display: flex;
+  justify-content: center;
+}
+.partners__link {
+  text-decoration: none;
+  width: 170px;
+  height: 70px;
+  cursor: pointer;
+  display: block;
+  opacity: 0.5;
+  background: url(../../img/partners/partners.png) 0 0 no-repeat;
+  filter: grayscale(100);
+  transition: filter 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
+}
+.partners__link--bmp {
+  background-position: -592px -310px;
+}
+
+.partners__link--tetra {
+  background-position: -951px -364px;
+}
+.partners__link--sib {
+  background-position: -433px -823px;
+}
+
+.partners__link--oneair {
+  background-position: -441px -560px;
+}
+
+.partners__link--bigair {
+  background-position: -286px -100px; 
+}
+
+.partners__link--ural {
+  background-position: -1064px -628px;
+}
+.partners__link--bmp:hover,
+.partners__link--tetra:hover,
+.partners__link--sib:hover,
+.partners__link--oneair:hover,
+.partners__link--bigair:hover,
+.partners__link--ural:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}

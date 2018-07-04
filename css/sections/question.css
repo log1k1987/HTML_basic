@@ -1,0 +1,25 @@
+/* Вопросы */
+.question {
+  background: url(../../img/reviews/Rectangle1.png);
+  margin-bottom: 60px;
+}
+.container--ques{
+  min-height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question__text {
+  color: #fff;
+  width: 620px;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 1.7;
+}
+.question__text span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+.question__text span+b {
+  font-weight: bold;
+}

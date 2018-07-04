@@ -1,0 +1,51 @@
+/* НОВОСТИ */
+.reviews, .news {
+  margin-bottom: 58px;
+}
+h3.section-title {
+  margin-bottom: 68px;
+}
+.section-title_reviews {
+  margin-bottom: 38px;
+}
+
+.reviews__list, .news__list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 58px;
+}
+.reviews__item, .news__item {
+  display: flex;
+  list-style-type: none;
+  padding-bottom: 22px;
+  margin-bottom: 28px;
+  border-bottom: 2px solid #e8e9ed;
+}
+.reviews__item:last-child, .news__item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.reviews__avatar, .news__avatar {
+  margin-right: 15px;
+}
+.reviews__avatar-pic, .news__avatar-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+ .reviews__info, .news__info {
+  width: 650px;
+  font-size: 15px;
+}
+.reviews__title, .news__title {
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+.reviews__date, .news__date {
+  margin-bottom: 4px;
+}
+.reviews__text, .news__text {
+  font-size: 17px;
+  line-height: 1.8;
+}

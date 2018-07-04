@@ -1,0 +1,147 @@
+.feedback {
+  margin-bottom: 50px;
+}
+.container--feedback {
+  display: flex;
+  justify-content: center;
+}
+.feedback__block {
+  width: 700px;
+  padding: 40px 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #f5f5f5;
+}
+
+
+.feedback__form {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: lighter;
+}
+.feedback__name {
+  width: 50%;
+}
+.feedback__linkvk {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+.feedback__text {
+  width: 100%;
+  margin-bottom: 28px;
+}
+.feedback__radio {
+  position: relative;
+  width: 50%;
+}
+/* RADIO */
+.feedback__ro {
+  position: absolute;
+  left: -5000px;
+}
+
+.feedback__label {
+  cursor: pointer;
+  margin-right: 15px;
+}
+.feedback__label:last-child {
+  margin-right: 0;
+}
+.feedback__newro {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  vertical-align: middle;
+  transition: .11s;
+  border: 1px solid #cacaca;
+  border-radius: 50%;
+}
+.feedback__newtt {
+  font-size: 14px;
+  transition: .11s;
+  font-weight: lighter;
+}
+.feedback__newro:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 8px;
+  height: 8px;
+  content: "";
+  margin: auto;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.feedback__ro:checked + .feedback__newro {
+  border-color: #4b73b5;
+}
+
+.feedback__ro:checked + .feedback__newro:before {
+  background: #4b73b5;
+}
+.feedback__ro:checked ~ .feedback__newtt {
+  color: #4b73b5;
+}
+
+/* button */
+.feedback__btn {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+#text {
+  min-width: 560px;
+  min-height: 90px;
+  resize: none;
+  padding: 5px;
+}
+#name, #link {
+  min-width: 270px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-bottom: 12px;
+}
+.feedback__title {
+  font-size: 49px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.feedback__title2 {
+  margin-bottom: 5px;
+}
+.feedback__name, .feedback__linkvk {
+  margin-bottom: 20px;
+}
+#submit {
+  min-width: 150px;
+  background: #4b73b5;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  padding: 15px
+}
+.button__text {
+  text-transform: uppercase;
+  position: relative;
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+.button__text:after {
+  content: '';
+  background: url(../../img/btn/Vector\ Smart\ Object.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  vertical-align: center;
+  top: -2px;
+  right: 0px;
+}
