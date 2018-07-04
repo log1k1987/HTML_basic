@@ -23,40 +23,37 @@
   display: block;
   opacity: 0.5;
   background: url(../../img/partners/partners.png) 0 0 no-repeat;
+  filter: grayscale(100);
+  transition: filter 0.5s ease-in-out 0s, opacity 0.5s ease-in-out 0s;
 }
 .partners__link--bmp {
-  background-position: -592px -80px;
-}
-.partners__link--bmp:hover {
   background-position: -592px -310px;
 }
+
 .partners__link--tetra {
-  background-position: -951px -100px;
-}
-.partners__link--tetra:hover {
   background-position: -951px -364px;
 }
 .partners__link--sib {
-  background-position: -100px -823px;
-}
-.partners__link--sib:hover {
   background-position: -433px -823px;
 }
+
 .partners__link--oneair {
-  background-position: -100px -560px;
-}
-.partners__link--oneair:hover {
   background-position: -441px -560px;
 }
+
 .partners__link--bigair {
-  background-position: -40px -100px;
-}
-.partners__link--bigair:hover {
   background-position: -286px -100px; 
 }
+
 .partners__link--ural {
-  background-position: -782px -628px;
-}
-.partners__link--ural:hover {
   background-position: -1064px -628px;
+}
+.partners__link--bmp:hover,
+.partners__link--tetra:hover,
+.partners__link--sib:hover,
+.partners__link--oneair:hover,
+.partners__link--bigair:hover,
+.partners__link--ural:hover {
+  filter: grayscale(0);
+  opacity: 1;
 }
