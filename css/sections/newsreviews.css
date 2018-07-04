@@ -1,6 +1,6 @@
 /* НОВОСТИ */
 .reviews, .news {
-  margin-bottom: 50px;
+  margin-bottom: 58px;
 }
 h3.section-title {
   margin-bottom: 68px;
@@ -17,7 +17,7 @@ h3.section-title {
 .reviews__item, .news__item {
   display: flex;
   list-style-type: none;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   margin-bottom: 28px;
   border-bottom: 2px solid #e8e9ed;
 }

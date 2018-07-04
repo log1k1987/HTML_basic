@@ -18,6 +18,8 @@
 .feedback__form {
   display: flex;
   flex-wrap: wrap;
+  font-size: 14px;
+  font-weight: lighter;
 }
 .feedback__name {
   width: 50%;
@@ -29,7 +31,7 @@
 }
 .feedback__text {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 .feedback__radio {
   position: relative;
@@ -97,19 +99,21 @@
   min-width: 560px;
   min-height: 90px;
   resize: none;
+  padding: 5px;
 }
 #name, #link {
   min-width: 270px;
-  padding-top: 12px;
+  padding-top: 15px;
+  padding-left: 5px;
   padding-bottom: 12px;
 }
 .feedback__title {
   font-size: 49px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .feedback__title2 {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .feedback__name, .feedback__linkvk {
   margin-bottom: 20px;
