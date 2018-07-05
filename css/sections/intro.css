@@ -30,7 +30,9 @@
   border-radius: 2px;
   padding: 15px 50px 15px 20px;
 }
-.intro__link:visited {
+.intro__link:visited,
+.intro__link:active
+.intro__link:focus {
   color: #1c5bc3;
 }
 .intro__link:after {
