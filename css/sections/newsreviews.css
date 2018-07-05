@@ -12,7 +12,7 @@ h3.section-title {
 .reviews__list, .news__list {
   display: flex;
   flex-direction: column;
-  margin-bottom: 58px;
+  margin-bottom: 52px;
 }
 .reviews__item, .news__item {
   display: flex;
