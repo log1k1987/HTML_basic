@@ -43,25 +43,13 @@ padding-top: 0;
 .menu__link--crew {
   background-position: -200px 0;
 }
-
+.menu__link--crew:hover,
+.menu__link--reviews:hover,
+.menu__link--main:hover,
+.menu__link--active .menu__link--crew,
+.menu__link--active .menu__link--reviews,
+.menu__link--active .menu__link--main,
 .menu__link--active .menu__link {
-  color: #000;
-}
-.menu__link--active .menu__link--main {
   filter: brightness(0);
 }
-.menu__link--active .menu__link--reviews {
-  filter: brightness(0);
-}
-.menu__link--active .menu__link--crew {
-  filter: brightness(0);
-}
-.menu__link--main:hover {
-  filter: brightness(0);
-}
-.menu__link--reviews:hover {
-  filter: brightness(0);
-}
-.menu__link--crew:hover {
-  filter: brightness(0);
-} 
+
