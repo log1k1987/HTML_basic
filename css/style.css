@@ -4,6 +4,7 @@
 @import url('layout/base.css');
 
 /* sections style */
+@import url('sections/intro.css');
 @import url('sections/header.css');
 @import url('sections/breadcrumbs.css');
 @import url('sections/sidebar.css');
