@@ -1,5 +1,8 @@
 /* НОВОСТИ */
-.reviews, .news {
+.page__reviews {
+  margin-bottom: 64px;
+}
+.news {
   margin-bottom: 58px;
 }
 h3.section-title {
