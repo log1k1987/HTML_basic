@@ -23,6 +23,10 @@ footer {
   color: white;
   font-size: 14px;
 }
+.copyright > span {
+  font-weight: bold;
+  text-decoration: underline;
+}
 /* Социальные сети */
 .socials {
   color: white;
