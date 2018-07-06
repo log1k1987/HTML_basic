@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 .crew__item {
   width: 32%;

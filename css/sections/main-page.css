@@ -65,6 +65,7 @@
 }
 .price__text {
   text-align: center;
+
   line-height: 1.7;
   margin-bottom: 10px;
 }
@@ -74,7 +75,6 @@
  margin-left: 23px;
  margin-bottom: 30px;
 }
-
 
 li.price__string-item {
   margin-bottom: 13px;
