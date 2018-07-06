@@ -1,8 +1,8 @@
-﻿/* layouts style */
-@import url('layout/fonts.css');
+﻿
+/*layouts style */
 @import url('layout/normalize.css');
+@import url('layout/fonts.css');
 @import url('layout/base.css');
-
 /* sections style */
 @import url('sections/intro.css');
 @import url('sections/header.css');
