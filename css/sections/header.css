@@ -89,16 +89,17 @@
   font-weight: lighter;
 }
 
-.triangle {
+.dropdown:after {
+  position: absolute;
+  content: '';
   width: 25px;
   height: 25px;
   border-left: 1px solid black;
   border-top: 1px solid black;
   border-radius: 5px 0 0 0;
   bottom: 100%;
-  position: absolute;
   transform: rotate(45deg);
   margin-bottom: -12px;
-  left: 82%;
+  left: 81%;
   background: #fff;
 }
