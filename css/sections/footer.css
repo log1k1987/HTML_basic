@@ -23,9 +23,9 @@ footer {
   color: white;
   font-size: 14px;
 }
-.copyright > span {
+.copyright__link {
   font-weight: bold;
-  text-decoration: underline;
+  color: #fff;
 }
 /* Социальные сети */
 .socials {
