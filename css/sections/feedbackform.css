@@ -147,7 +147,7 @@
 
 #submit:after {
   content: '';
-  background: url(../../img/btn/Vector\ Smart\ Object.png) no-repeat;
+  background: url(../../img/btn/btn.png) -100px -100px no-repeat;
   width: 20px;
   height: 20px;
   bottom: 9px;
@@ -155,5 +155,5 @@
   position: absolute;
 }
 #submit:hover:after {
-  background: url(../../img/btn/Vector\ Smart\ Object\ hover.png) no-repeat;
+  background-position: -315px -100px;
 }

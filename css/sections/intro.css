@@ -66,7 +66,7 @@
   background: #1c5bc3;
 }
 .intro__link:hover:after {
-  background: url(../../img/btn/Vector\ Smart\ Object.png) center center no-repeat;
+  background-position: -100px -95px;
 }
 .intro__link {
   transition: background .4s;
@@ -85,5 +85,5 @@
   margin-left: 10px;
   width: 23px;
   height: 23px;
-  background: url(../../img/btn/Vector\ Smart\ Object\ hover.png) center center no-repeat;
+  background: url(../../img/btn/btn.png) -315px -95px no-repeat;
 }
