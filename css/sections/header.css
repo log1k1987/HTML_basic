@@ -50,8 +50,11 @@
 .contacts__item {
   position: relative;
 }
+.contacts__item--inline {
+  display: inline-block;
+}
 .contacts__item:hover .dropdown {
-  left: 50%;
+  left: 22%;
   opacity: 1;
 }
 
