@@ -49,6 +49,11 @@
 .intro__logo {
   margin-bottom: 35px;
 }
+.intro__link:visited,
+.intro__link:active
+.intro__link:focus {
+  color: #1c5bc3;
+}
 .intro__btn {
   text-transform: uppercase;
   font-size: 12px;
@@ -56,7 +61,15 @@
   color: #1c5bc3;
   letter-spacing: 2px;
 }
+.intro__link:hover {
+  color: #fff;
+  background: #1c5bc3;
+}
+.intro__link:hover:after {
+  background: url(../../img/btn/Vector\ Smart\ Object.png) center center no-repeat;
+}
 .intro__link {
+  transition: background .4s;
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -64,17 +77,13 @@
   border-radius: 2px;
   padding: 15px 50px 15px 20px;
 }
-.intro__link:visited,
-.intro__link:active
-.intro__link:focus {
-  color: #1c5bc3;
-}
+
 .intro__link:after {
   content: '';
   position: absolute;
-  top: 10px;
+  top: 8px;
   margin-left: 10px;
   width: 23px;
   height: 23px;
-  background: url(../../img/sidebar/sidebar_sprite.png) -100px 0 no-repeat;
+  background: url(../../img/btn/Vector\ Smart\ Object\ hover.png) center center no-repeat;
 }
