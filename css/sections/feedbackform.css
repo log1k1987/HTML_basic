@@ -136,7 +136,7 @@
   font-weight: bold;
   font-size: 12px;
   letter-spacing: 3px;
-  transition: background 1s;
+  transition: background .4s;
   display: inline-block;
 }
 #submit:hover {
