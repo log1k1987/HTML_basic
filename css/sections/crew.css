@@ -1,6 +1,6 @@
 
 .crew {
-  margin-bottom: 65px;
+  margin-bottom: 20px;
 }
 .crew__list {
   display: flex;
@@ -21,9 +21,6 @@
   margin-right: 0;
 }
 
-.crew__item:nth-child(n+4) {
-  margin-bottom: 0;
-}
 .crew__avatar {
   position: relative;
   margin-bottom: 15px;

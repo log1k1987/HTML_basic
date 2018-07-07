@@ -1,5 +1,5 @@
-.partners {
-  margin-bottom: 13px;
+.page__crew {
+  margin-bottom: 30px;
 }
 .partners__list {
   display: flex;
@@ -8,15 +8,13 @@
 }
 .partners__item {
   width: 32%;
-  margin-bottom: 59px;
+  margin-bottom: 60px;
   margin-right: 1%;
 }
 .partners__item:nth-child(3n) {
   margin-right: 0;
 }
-.partners__item:nth-child(n+4) {
-  margin-bottom: 0;
-}
+
 .partners__avatar {
   display: flex;
   justify-content: center;
