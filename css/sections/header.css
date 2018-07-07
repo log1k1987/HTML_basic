@@ -26,6 +26,9 @@
   text-align: right;
   font-style: normal;
 }
+.contacts__link {
+  transition: color .4s;
+}
 
 .contacts__link--phone {
   color: #fff;

@@ -57,6 +57,7 @@
 }
 .switcher__link {
   padding: 2px 8px;
+  transition: color .3s;
 }
 .switcher__link.switcher__page-item--active {
   color: #fff;
