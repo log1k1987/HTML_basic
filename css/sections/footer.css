@@ -23,6 +23,10 @@ footer {
   color: white;
   font-size: 14px;
 }
+.copyright__link {
+  font-weight: bold;
+  color: #fff;
+}
 /* Социальные сети */
 .socials {
   color: white;
@@ -68,7 +72,7 @@ background-position: -296px 6px;
 }
 
 .socials__title {
-  font-size: 15px;
+  font-size: 13px;
   font-weight: bold;
   margin-bottom: 8px;
 }

@@ -1,6 +1,9 @@
 /* НОВОСТИ */
-.reviews, .news {
-  margin-bottom: 58px;
+.page__reviews {
+  margin-bottom: 69px;
+}
+.news {
+  margin-bottom: 63px;
 }
 h3.section-title {
   margin-bottom: 68px;
@@ -12,13 +15,13 @@ h3.section-title {
 .reviews__list, .news__list {
   display: flex;
   flex-direction: column;
-  margin-bottom: 58px;
+  margin-bottom: 57px;
 }
 .reviews__item, .news__item {
   display: flex;
   list-style-type: none;
-  padding-bottom: 22px;
-  margin-bottom: 28px;
+  padding-bottom: 19px;
+  margin-bottom: 29px;
   border-bottom: 2px solid #e8e9ed;
 }
 .reviews__item:last-child, .news__item:last-child {
@@ -49,3 +52,4 @@ h3.section-title {
   font-size: 17px;
   line-height: 1.8;
 }
+

@@ -26,6 +26,9 @@
   text-align: right;
   font-style: normal;
 }
+.contacts__link {
+  transition: color .4s;
+}
 
 .contacts__link--phone {
   color: #fff;
@@ -47,36 +50,41 @@
 .contacts__item {
   position: relative;
 }
-.contacts__item:hover > .dropdown {
-  left: 50%;
+.contacts__item--inline {
+  display: inline-block;
+}
+.contacts__item:hover .dropdown {
+  left: 22%;
+  opacity: 1;
 }
 
 .dropdown {
-  border: 1px solid black;
   background: #fff;
   padding: 15px;
   width: 165px;
-  border-radius: 5px 0 5px 5px;
+  border-radius: 4px 3px 4px 4px;
   text-align: center;
   position: absolute;
-  top: 100%;
+  top: 205%;
   transform: translateX(-50%);
   z-index: 10;
   left: -9999px;
-  margin-top: 20px;
+  opacity: 0;
+  transition: opacity .3s linear;
   box-shadow: 0.2em 0.2em 5px rgba(122,122,122,0.5);
 }
 .dropdown:before {
   position: absolute;
   content: '';
   display: block;
-  height: 30px;
+  height: 27px;
   left: 0;
   right: 0;
-  top: -29px;
+  top: -21px;
 }
 .dropdown__item {
   text-align: left;
+  margin-bottom: 4px;
 }
 .dropdown__link {
   text-decoration: none;
@@ -90,16 +98,15 @@
   font-weight: lighter;
 }
 
-.triangle {
-  width: 25px;
-  height: 25px;
-  border-left: 1px solid black;
-  border-top: 1px solid black;
-  border-radius: 5px 0 0 0;
-  bottom: 100%;
+.dropdown:after {
   position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  border-radius: 6px 0 0 0;
+  bottom: 100%;
   transform: rotate(45deg);
-  margin-bottom: -12px;
-  left: 82%;
+  margin-bottom: -7px;
+  left: 88%;
   background: #fff;
 }

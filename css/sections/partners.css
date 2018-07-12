@@ -1,3 +1,6 @@
+.page__crew {
+  margin-bottom: 30px;
+}
 .partners__list {
   display: flex;
   justify-content: center;
@@ -5,12 +8,13 @@
 }
 .partners__item {
   width: 32%;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   margin-right: 1%;
 }
 .partners__item:nth-child(3n) {
   margin-right: 0;
 }
+
 .partners__avatar {
   display: flex;
   justify-content: center;
@@ -34,7 +38,7 @@
   background-position: -951px -364px;
 }
 .partners__link--sib {
-  background-position: -433px -823px;
+  background-position: -405px -823px;
 }
 
 .partners__link--oneair {
@@ -46,7 +50,7 @@
 }
 
 .partners__link--ural {
-  background-position: -1064px -628px;
+  background-position: -1010px -628px;
 }
 .partners__link--bmp:hover,
 .partners__link--tetra:hover,

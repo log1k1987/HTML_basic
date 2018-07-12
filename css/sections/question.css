@@ -12,14 +12,19 @@
 .question__text {
   color: #fff;
   width: 620px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: lighter;
   line-height: 1.7;
 }
-.question__text span {
-  text-decoration: underline;
+.question__link {
   font-weight: bold;
+  color: #fff;
 }
-.question__text span+b {
+.question__phone {
+  color: #fff;
   font-weight: bold;
+  text-decoration: none;
+}
+.question__phone:hover {
+  text-decoration: underline;
 }

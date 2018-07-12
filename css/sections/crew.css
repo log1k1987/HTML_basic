@@ -1,11 +1,12 @@
 
-/* .crew {
-  margin-bottom: 50px;
-} */
+.crew {
+  margin-bottom: 20px;
+}
 .crew__list {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 .crew__item {
   width: 32%;
@@ -14,22 +15,23 @@
   flex-direction: column;
   align-items: center;
   margin-right: 1%;
-  margin-bottom: 50px;
+  margin-bottom: 43px;
 }
 .crew__item:nth-child(3n) {
   margin-right: 0;
 }
+
 .crew__avatar {
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .crew__name {
-  font-size: 10px;
+  font-size: 18px;
   font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .crew__post {
+  font-size: 14px;
   color: #4b73b5;
   font-weight: bold;
   margin-bottom: 10px;

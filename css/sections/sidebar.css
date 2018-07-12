@@ -29,8 +29,9 @@ padding-top: 0;
   display: block;
   background: url(../../img/sidebar/sidebar_sprite.png) 0 0 no-repeat;
   padding: 4px 0px 0 36px;
+  transition: color 0.5s ease-in-out 0s, filter 0.5s ease-in-out 0s;
 }
- .menu__link:hover {
+.menu__link:hover {
   color: #000;
 }
 .menu__link--main {
@@ -43,24 +44,13 @@ padding-top: 0;
   background-position: -200px 0;
 }
 
+.menu__link--crew:hover,
+.menu__link--reviews:hover,
+.menu__link--main:hover,
+.menu__link--active .menu__link--crew,
+.menu__link--active .menu__link--reviews,
+.menu__link--active .menu__link--main,
 .menu__link--active .menu__link {
-  color: #000;
+  filter: brightness(0);
 }
-.menu__link--active .menu__link--main {
-  background-position: -100px -100px;
-}
-.menu__link--active .menu__link--reviews {
-  background-position: 0 -100px;
-}
-.menu__link--active .menu__link--crew {
-  background-position: -200px -100px;
-}
-.menu__link--main:hover {
-  background-position: -100px -100px;
-}
-.menu__link--reviews:hover {
-  background-position: 0 -100px;
-}
-.menu__link--crew:hover {
-  background-position: -200px -100px;
-} 
+

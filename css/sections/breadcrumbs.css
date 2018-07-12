@@ -10,12 +10,18 @@
 }
 .breadcrumbs__item:after {
   content: '/';
+  color: #000;
   margin-right: 2px;
 }
 .breadcrumbs__item:last-child:after {
   display: none;
 }
-.breadcrumbs__link--active {
+.breadcrumbs__link:visited,
+.breadcrumbs__link:active
+.breadcrumbs__link:focus {
+  color: #1c5bc3;
+}
+.breadcrumbs__link.breadcrumbs__link--active {
   text-decoration: none;
   color: #4e4c4c;
   pointer-events: none;
